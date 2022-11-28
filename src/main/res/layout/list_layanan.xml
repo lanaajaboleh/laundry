@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+android:id="@+id/list_layanan">
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="104dp">
+            <TextView
+                    android:text="Jenis Layanan"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp" android:id="@+id/textView2" android:textSize="24sp"
+                    android:textAlignment="center" android:elegantTextHeight="false" android:textStyle="normal|bold"
+                    android:typeface="sans" android:textColorHighlight="#000000"
+                    android:textDirection="firstStrongLtr" android:gravity="center_horizontal"/>
+        </androidx.cardview.widget.CardView>
+        <Space
+                android:layout_width="match_parent"
+                android:layout_height="46dp"/>
+        <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="108dp" app:cardBackgroundColor="#03A9F4">
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="wrap_content" app:srcCompat="@drawable/ic_cuci_basah"
+                        android:id="@+id/cucibasah" android:layout_weight="1"/>
+                <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="152dp"
+                        android:layout_height="match_parent" android:layout_weight="1">
+                    <TextView
+                            android:text="Cuci Basah"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp" android:id="@+id/cucibasah_title" android:layout_weight="1"
+                            android:textSize="20sp" android:textStyle="bold"/>
+                    <TextView
+                            android:text="Pakaianmu akan dicuci menggunakan mesin cuci dengan deterjen terbaik dari kami sehingga pakaian tetap awet."
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" android:id="@+id/cucibasah_expl" android:layout_weight="1"/>
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <Space
+                android:layout_width="match_parent"
+                android:layout_height="32dp"/>
+        <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="108dp" app:cardBackgroundColor="#03A9F4">
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                <ImageView
+
+                        android:layout_width="15dp"
+                        android:layout_height="wrap_content" app:srcCompat="@drawable/ic_dry_cleaning"
+                        android:id="@+id/dryclean" android:layout_weight="1"/>
+                <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="152dp"
+                        android:layout_height="match_parent" android:layout_weight="1">
+                    <TextView
+                            android:text="Dry Cleaning"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp" android:id="@+id/drclean_title" android:layout_weight="1"
+                            android:textSize="20sp" android:textStyle="bold"/>
+                    <TextView
+                            android:text="Jika pakaianmu takut dengan air, dry cleaning adalah pilihan yang tepat."
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" android:id="@+id/dryclean_expl"
+                            android:layout_weight="1"/>
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <Space
+                android:layout_width="match_parent"
+                android:layout_height="32dp"/>
+        <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="108dp" app:cardBackgroundColor="#03A9F4">
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="wrap_content" app:srcCompat="@drawable/ic_premium_wash"
+                        android:id="@+id/premwash" android:layout_weight="1"/>
+                <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="152dp"
+                        android:layout_height="match_parent" android:layout_weight="1">
+                    <TextView
+                            android:text="Premium Wash"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp" android:id="@+id/premwash_title" android:layout_weight="1"
+                            android:textSize="20sp" android:textStyle="bold"/>
+                    <TextView
+                            android:text="Dengan menggunakan mesin cuci teknologi tinggi dan deterjen premium, pakaianmu akan terawat."
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" android:id="@+id/premwash_expl" android:layout_weight="1"/>
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <Space
+                android:layout_width="match_parent"
+                android:layout_height="32dp"/>
+        <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="108dp" app:cardBackgroundColor="#03A9F4">
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="wrap_content" app:srcCompat="@drawable/ic_setrika"
+                        android:id="@+id/setrika" android:layout_weight="1"/>
+                <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="152dp"
+                        android:layout_height="match_parent" android:layout_weight="1">
+                    <TextView
+                            android:text="Setrika"
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp" android:id="@+id/setrika_title" android:layout_weight="1"
+                            android:textSize="20sp" android:textStyle="bold"/>
+                    <TextView
+                            android:text="Listrik yang terlalu mahal untuk menyetrika di rumah? Tenang, kami bisa menyetrika pakaianmu dnegan rapi."
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" android:id="@+id/setrika_expl" android:layout_weight="1"/>
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
